@@ -21,6 +21,7 @@
 		57C7B70A19A7B6930065E163 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C7B6EC19A7B6930065E163 /* UIKit.framework */; };
 		57C7B71219A7B6930065E163 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57C7B71019A7B6930065E163 /* InfoPlist.strings */; };
 		57C7B71419A7B6930065E163 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C7B71319A7B6930065E163 /* Git_TestTests.m */; };
+		57C7B71F19A7BA540065E163 /* MBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C7B71E19A7BA540065E163 /* MBTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		57C7B70F19A7B6930065E163 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		57C7B71119A7B6930065E163 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		57C7B71319A7B6930065E163 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		57C7B71D19A7BA540065E163 /* MBTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTest.h; sourceTree = "<group>"; };
+		57C7B71E19A7BA540065E163 /* MBTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				57C7B6FA19A7B6930065E163 /* Main.storyboard */,
 				57C7B6FD19A7B6930065E163 /* MBViewController.h */,
 				57C7B6FE19A7B6930065E163 /* MBViewController.m */,
+				57C7B71D19A7BA540065E163 /* MBTest.h */,
+				57C7B71E19A7BA540065E163 /* MBTest.m */,
 				57C7B70019A7B6930065E163 /* Images.xcassets */,
 				57C7B6EF19A7B6930065E163 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				57C7B6F519A7B6930065E163 /* main.m in Sources */,
 				57C7B6FF19A7B6930065E163 /* MBViewController.m in Sources */,
+				57C7B71F19A7BA540065E163 /* MBTest.m in Sources */,
 				57C7B6F919A7B6930065E163 /* MBAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
